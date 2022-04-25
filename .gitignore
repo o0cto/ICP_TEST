@@ -1,0 +1,10 @@
+*.user
+*.swp
+#MSVC Ignores
+.vs
+.vscode
+CMakeSettings.json
+out
+
+build/
+
