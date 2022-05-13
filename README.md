@@ -46,3 +46,6 @@ ICP result = 1
 Register took 127.873 seconds.
 ICP success.
 
+# 修改说明
+1. 添加了包含最耗时函数computeCloud2MeshDistances()的源文件：tests/DistanceComputationTools.cpp
+2. computeCloud2MeshDistances函数中调用的最耗时函数为：ComputeNeighborhood2MeshDistancesWithOctree()

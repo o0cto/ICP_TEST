@@ -15,7 +15,7 @@ namespace CCCoreLib
 	//! Fast Marching algorithm for surface front propagation
 	/** Extends the FastMarching class.
 	**/
-	class FastMarchingForPropagation : public FastMarching
+	class CC_CORE_LIB_API FastMarchingForPropagation : public FastMarching
 	{
 	public:
 

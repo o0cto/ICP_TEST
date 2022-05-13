@@ -18,7 +18,7 @@ include_directories(
 
 link_directories(${CCCoreLib_LIBRARY_DIRS})
 
-add_executable(testICP tests/test.cpp)
+add_executable(${PROJECT_NAME} tests/test.cpp tests/DistanceComputationTools.cpp)
 target_link_libraries(
   ${PROJECT_NAME}
   CCCoreLib

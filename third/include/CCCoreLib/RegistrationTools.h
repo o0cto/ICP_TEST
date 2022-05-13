@@ -47,8 +47,6 @@ namespace CCCoreLib
 											int transformationFilters,
 											ScaledTransformation& outTrans );
 
-	protected:
-
 		//! ICP Registration procedure with optional scale estimation
 		/** Determines the best quaternion (a couple qR|qT) and optionally
 			a scale 's' (different from a priori scale Sa) to bring the cloud
@@ -70,7 +68,6 @@ namespace CCCoreLib
 			\param aPrioriScale 'a priori' scale (Sa) between P and X
 			\return success
 		**/
-	public:
 		static bool RegistrationProcedure(	GenericCloud* P,
 											GenericCloud* X,
 											ScaledTransformation& trans,

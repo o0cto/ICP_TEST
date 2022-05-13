@@ -10,7 +10,7 @@ namespace CCCoreLib
 	//! Local modelization (generic interface)
 	/** Local surface approximation of a point cloud
 	**/
-	class LocalModel
+	class CC_CORE_LIB_API LocalModel
 	{
 	public:
 
